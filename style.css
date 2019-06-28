@@ -1,0 +1,174 @@
+* { box-sizing: border-box; }
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+div#main {
+	width: 100%;
+	height: 100%;
+}
+
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+ }
+
+ h1.text-center {
+	margin-top: 150px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	color: #1C1C1C;
+}
+
+p#chacha1 {
+	margin-top: 50px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 16px;
+	color: #1C1C1C;
+}
+
+h2#domy {
+	margin-top: 150px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	color: #1C1C1C;
+
+}
+
+
+p#domy2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 16px;/* identical to box height */
+	color: #828282;
+	text-orientation: center;
+}
+
+p.bold {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+p.text {
+	font-size: 20px;
+}
+
+p#chacha {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;/* identical to box height */
+	color: #828282;
+	text-orientation: center;
+}
+
+div.jumbotron {
+	width: 100%;
+	height: 100%;
+}
+
+ h2#nase{
+	margin-top: 15px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	color: #1C1C1C;
+}
+
+p#chacha2 {
+	margin-top: 50px;
+	margin-bottom: 45px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 16px;
+	color: #1C1C1C;
+}
+
+div.col-md-4{
+	background-color: #fff;
+	border-right: 3px solid #eee;
+	margin-bottom: 25px;
+}
+
+.img-hover-zoom {
+  height: 300px;
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+.btn {
+	margin-bottom: 15px;
+}
+
+ h2#nater1 {
+	margin-top: 130px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	color: #1C1C1C;
+}
+
+p#nater {
+	margin-top: 35px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 16px;
+	color: #828282;
+	text-orientation: center;
+}
+
+button#viac {
+	margin-left: 25px;
+	margin-top: 45px;
+}
+
+ul.zoznam {
+	font-family: Raleway;
+	font-style: normal;
+}
+
+@media only screen and (max-width : 420px) and (orientation : portrait) {
+	div#demo {
+		margin-top: 90px;
+	}
+}
